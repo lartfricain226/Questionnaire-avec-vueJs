@@ -15,7 +15,7 @@ const quiz = ref(null)
 const state = ref("loading")
 
 onMounted(() => {
-  fetch('/quiz.json')
+  fetch(`${import.meta.env.BASE_URL}quiz.json`)
     .then(res => {
       if (res.ok) {
         return res.json()
