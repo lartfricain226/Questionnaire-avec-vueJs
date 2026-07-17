@@ -1,0 +1,58 @@
+{
+  "title": "Quiz de Mathématiques - Terminale D",
+  "minimum_score": 6,
+  "success_message": "Excellent! Vous maîtrisez bien le programme de Terminale D!",
+  "failure_message": "Il faut réviser davantage! Retravaillez vos cours de mathématiques.",
+  "questions": [
+    {
+      "question": "Quelle est la limite de sin(x)/x quand x tend vers 0 ?",
+      "choices": ["0", "1", "+∞", "N'existe pas"],
+      "correct_answer": "1"
+    },
+    {
+      "question": "Quelle est la dérivée de la fonction f(x) = x³ ?",
+      "choices": ["3x²", "x²", "3x", "x³/3"],
+      "correct_answer": "3x²"
+    },
+    {
+      "question": "Quelle est une primitive de la fonction f(x) = 2x sur ℝ ?",
+      "choices": ["x² + C", "2x² + C", "x + C", "2 + C"],
+      "correct_answer": "x² + C"
+    },
+    {
+      "question": "Que vaut ln(e²) ?",
+      "choices": ["2", "e²", "1", "0"],
+      "correct_answer": "2"
+    },
+    {
+      "question": "Quelle est la forme algébrique de (1 + i)² ?",
+      "choices": ["2i", "2", "1 + 2i", "-2i"],
+      "correct_answer": "2i"
+    },
+    {
+      "question": "Quelle est la solution de l'équation eˣ = 1 dans ℝ ?",
+      "choices": ["x = 0", "x = 1", "x = e", "Pas de solution"],
+      "correct_answer": "x = 0"
+    },
+    {
+      "question": "Quel est le nombre dérivé de la fonction cosinus en 0 ?",
+      "choices": ["0", "1", "-1", "π"],
+      "correct_answer": "0"
+    },
+    {
+      "question": "Soit (Uₙ) une suite arithmétique de premier terme U₀ = 3 et de raison r = 5. Que vaut U₁₀ ?",
+      "choices": ["53", "50", "58", "48"],
+      "correct_answer": "53"
+    },
+    {
+      "question": "On lance un dé à 6 faces non pipé. Quelle est la probabilité d'obtenir un nombre pair ?",
+      "choices": ["1/2", "1/3", "1/6", "2/3"],
+      "correct_answer": "1/2"
+    },
+    {
+      "question": "Quelle est la formule du volume d'une pyramide de base carrée de côté a et de hauteur h ?",
+      "choices": ["(1/3)a²h", "a²h", "(1/2)a²h", "a³h"],
+      "correct_answer": "(1/3)a²h"
+    }
+  ]
+}
